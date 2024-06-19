@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*INDEX INICIO*/
+
+.header
+{
+    background: 
+                linear-gradient(0deg, rgb(0, 0, 0) 1%, rgba(255,255,255,0) 64%, rgba(255,255,255,0) 89%, rgb(0, 0, 0) 100%), 
+                url("imagen/backindex.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 110vh;
+    align-items: center;
+    display: flex;
+}
+
+   
+.menu
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.logo
+{
+    color: #fffdfc;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li
+{
+    position: relative;
+    float: left;
+   
+}
+.menu .navbar ul li a
+{
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+    display: block;
+    font-weight: 600;
+}
+.menu .navbar ul li a:hover
+{
+    color: #47caebe1;
+    background-color: #bdbdbd23;
+}
+
+#menu
+{
+    display: none;
+}
+
+.menu-icono
+{
+    width: 50px;
+}
+.menu label
+{
+    cursor: pointer;
+    display: none;
+}
+.menu-icono:hover
+{
+    color: #c01e1e3b;
+    background-color: rgba(98, 146, 207, 0.315);
+}
+.header-txt 
+{
+    text-align: center;
+
+}
+.header-txt h1 {
+
+    font-size: 60px;
+    color: #ffffffea;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 800;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.header-txt h2
+{
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    margin: center;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+
+}
+
+.header-txt p
+{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 0 250px;
+    margin-bottom: 45px;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+}
+.enlace1
+{
+    display: inline-block;
+    padding: 12px;
+    border: 1px solid;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.enlace1:hover
+{
+    color: #947b7b;
+    background-color: rgb(255, 255, 255);
+}
+.enlace2
+{
+    display: inline-block;
+    padding: 12px;
+    border: 1px solid;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.enlace2:hover
+{
+    color: #947b7b;
+    background-color: rgb(255, 255, 255);
+}
+
+/*INDEX FIN*/
+
+/*POO INICIO*/
+.header-poo
+{
+    background: 
+                linear-gradient(0deg, rgb(0, 0, 0) 1%, rgba(255,255,255,0) 64%, rgba(255,255,255,0) 89%, rgb(0, 0, 0) 100%), 
+                url("imagen/backpoo.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 110vh;
+    align-items: center;
+    display: flex; 
+}
+
+.header-txt-poo 
+{
+    text-align: left;
+
+}
+.header-txt-poo h1 {
+
+    font-size: 50px;
+    color: #ffffffea;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 800;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.header-txt-poo h2
+{
+    font-size: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: center;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+
+}
+
+.header-txt-poo summary
+
+{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.header-txt-poo p
+{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+    max-width: 1000px;
+
+}
+
+.header-txt-poo ul
+{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    padding: 0 50px;
+    margin-bottom: 45px;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+    max-width: 1000px;
+
+}
+
+details {
+    background: rgba(2, 27, 51, 0.76); /* Ligera visibilidad del fondo */
+    margin: 10px auto;
+    border-radius: 8px;
+    border: 1px solid #eee;    
+
+    max-width: 800px;
+    overflow-y: auto;
+}
+
+details summary 
+{
+    font-weight: 700;
+    cursor: pointer;
+    padding: 5px;
+    outline: none;
+}
+
+details summary:hover 
+{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+details[open] summary 
+{
+    border-bottom: 1px solid #ccc;
+}
+
+details p, details ul 
+{
+    margin-top: 0;
+}
+
+/*POO FIN*/
+
+/*SOFT INICIO*/
+
+.header-soft
+{
+    background: 
+                linear-gradient(0deg, rgb(0, 0, 0) 1%, rgba(255,255,255,0) 64%, rgba(255,255,255,0) 89%, rgb(0, 0, 0) 100%), 
+                url("imagen/back.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 110vh;
+    align-items: center;
+    display: flex; 
+}
+
+.header-txt-soft 
+{
+    text-align: left;
+
+}
+.header-txt-soft h1 {
+
+    font-size: 50px;
+    color: #ffffffea;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 800;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.header-txt-soft h2
+{
+    font-size: 15px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin: center;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+
+}
+
+.header-txt-soft ol
+{
+    font-size: 15px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin: center;
+    padding: 20px;
+
+}
+
+
+.header-txt-soft summary
+
+{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.header-txt-soft p
+{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+    max-width: 1000px;
+
+}
+
+.header-txt-soft ul
+{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    padding: 0 50px;
+    margin-bottom: 45px;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+    max-width: 1000px;
+
+}
+
+.details-soft {
+    background: rgba(2, 27, 51, 0.76); /* Ligera visibilidad del fondo */
+    border: 1px solid #ccc; /* Cambiar el borde */
+    padding: 5px; /* Añadir espaciado interno */
+    margin: 10px;
+    max-width: 500px;
+    max-height: 500px;
+    /* Agregar más estilos según tus necesidades */
+}
+
+.details-soft summary {
+    text-align: left;
+    font-weight: bold; /* Cambiar el peso de la fuente del resumen */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el resumen */
+}
+
+.details-soft p {
+    margin-bottom: 5px; /* Añadir espacio entre párrafos dentro de los detalles */
+}
+
+.header-txt-soft
+{
+    background: rgba(2, 27, 51, 0.527);
+    border-radius: 8px;
+    border: 1px solid #eee; 
+    width: 100%;
+    padding: 20px; /* Agrega algún espacio entre el contenido y el borde */
+    margin-top: 100px; /* Ajusta el margen superior para dejar espacio */
+}
+/*SOFT FIN*/
+
+/*FORMULARIO INICIO*/
+
+.header-form {
+    background: 
+        linear-gradient(0deg, rgb(0, 0, 0) 1%, rgba(255,255,255,0) 64%, rgba(255,255,255,0) 89%, rgb(0, 0, 0) 100%), 
+        url("imagen/backform.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 110vh;
+    align-items: center;
+    display: flex; 
+    justify-content: center; /* Centra el contenido horizontalmente */
+}
+
+.container-form
+{
+    width: 40vh;
+}
+
+.header-txt-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #eff2f6;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 30px; /* Añade padding uniforme */
+    transition: box-shadow 0.4s;
+    margin: 20px auto; /* Ajusta el margen */
+    width: 50vh; /* Establece el ancho del contenedor al 50% */
+    max-width: 600px; /* Limita el ancho máximo */
+    box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+    align-items: center; /* Centra el contenido horizontalmente */
+}
+
+.header-txt-form h1 {
+    display: inline-block;
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    text-align: center;
+    max-width: 100%;
+    vertical-align: middle;
+    outline: 0;
+    user-select: none;
+    line-height: 1.43;
+    font-size: 24px; /* Ajusta el tamaño del texto */
+    text-transform: uppercase;
+    border-radius: 40px;
+    border: 2px solid transparent;
+    position: relative;
+    font-weight: 700;
+    background-image: linear-gradient(120deg, rgba(143, 255, 206, 0.5) 28.41%, rgba(153, 247, 255, 0.5) 69.04%);
+    color: #000716;
+    margin-bottom: 20px; /* Añade espacio inferior */
+    padding: 5px 0; /* Añade padding para mejorar legibilidad */
+}
+
+.header-txt-form label {
+    font-size: 16px;
+    text-align: left;
+    color: rgb(0, 0, 0); /* Cambia el color del texto para mejor legibilidad */
+    padding-bottom: 10px; /* Ajusta el padding inferior */
+    padding-top: 10px; /* Ajusta el padding superior */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.header-txt-form p {
+    color: rgb(0, 0, 0); /* Cambia el color del texto para mejor legibilidad */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    max-width: 1000px;
+    margin-bottom: 10px; /* Añade espacio inferior */
+}
+
+.header-txt-form textarea {
+    width: 100%; /* Asegura que el textarea ocupe todo el ancho del contenedor */
+    height: 130px;
+    background: rgba(255, 255, 255, 0.2); /* Cambia el color del fondo de los input */
+    border-radius: 24px;
+    border: 1px solid rgba(66, 66, 66, 0.3); /* Cambia el color del borde */
+    letter-spacing: 1px;
+    transition: .3s;
+    color: #000; /* Cambia el color del texto para mejor legibilidad */
+    padding: 10px;
+    outline: none;
+    box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+    margin-bottom: 20px; /* Añade espacio inferior */
+}
+
+.header-txt-form input {
+    width: 100%; /* Asegura que el input ocupe todo el ancho del contenedor */
+    height: 35px;
+    padding: 10px; /* Ajusta el padding para mejor usabilidad */
+    outline: none;
+    background: rgba(255, 255, 255, 0.2); /* Cambia el color del fondo de los input */
+    border-radius: 24px;
+    border: 1px solid rgba(66, 66, 66, 0.3); /* Cambia el color del borde */
+    transition: .3s;
+    color: #000; /* Cambia el color del texto para mejor legibilidad */
+    box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+    margin-bottom: 20px; /* Añade espacio inferior */
+}
+
+button {
+    display: inline-block;
+    width: 100%; /* Ajusta el ancho para que ocupe todo el contenedor */
+    text-align: center;
+    max-width: 100%;
+    vertical-align: middle;
+    outline: 0;
+    cursor: pointer;
+    user-select: none;
+    line-height: 1.43;
+    font-size: 14px;
+    border-radius: 40px;
+    border: 2px solid transparent;
+    position: relative;
+    font-weight: 700;
+    background-image: linear-gradient(120deg, rgba(143, 255, 206, 0.5) 28.41%, rgba(153, 247, 255, 0.5) 69.04%);
+    color: #000716;
+    padding: 10px; /* Añade padding para mejor usabilidad */
+    margin-top: 10px; /* Añade espacio superior */
+    box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+}
+
+.data p {
+    color: #000000; /* Cambia el color del texto */
+    font-size: 14px; /* Cambia el tamaño del texto */
+    font-family: 'Poppins', sans-serif; /* Cambia la fuente del texto */
+    font-weight: 500;
+    text-align: center;
+}
+
+
+/*FORMULARIO FIN*/
+
+
+
+
+
+
+
+
+
+
+

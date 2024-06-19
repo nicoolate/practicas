@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-poo">
+        <div class="menu container">
+            <a href="#" class="logo"></a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="/imagen/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="programacionOrientadaAObjetos.html">POO</a></li>
+                    <li><a href="desarrolloDeSistemas.html"">Desarrollo de Sistemas</a></li>
+                    <li><a href="formulario.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <div class="header-txt-poo">
+                <h1>Programacion Orientada a Objetos (POO)</h1>
+                <section>
+                    <h2>Temas a ser evaluados</h2>
+                    <details id="poo">
+                        <summary>¿Que es la programacion orientada a objetos y para que sirve?</summary>
+                        <p>Es un paradigma que se basa en el concepto de "objetos". Estos objetos interactúan entre sí a través de mensajes para realizar tareas y lograr los objetivos del programa. No es un lenguaje.</p>
+                        <p>Sirve para organizar y estructurar el código de manera más eficiente, facilitando el desarrollo, mantenimiento y reutilización de software.</p>
+                    </details>
+                    <details id="clase">
+                        <summary>¿Que es una clase?</summary>
+                        <p>Es una plantilla o un "molde" que define las características comunes y el comportamiento de un conjunto de objetos. Es decir sus atributos y metodos.</p>
+                        <details>
+                            <summary>Tipos de clases</summary>
+                            <details>
+                                <summary>Clase concreta</summary>
+                                <p>Estas son las clases que pueden ser instanciadas directamente. Pueden tener atributos y métodos concretos (con implementación), y pueden heredar de clases abstractas o de otras clases concretas.</p>
+                            </details>
+                            <details>
+                                <summary>Clase abstracta</summary>
+                                <p>Este tipo de clase <strong>no puede ser instanciada por si sola</strong>, sino que sirve como plantilla para otras clases. Proporciona <strong>metodos</strong>(concretos o abstractos) y/o <strong>propiedades</strong> que deben ser <strong>implementadas por las clases hijas</strong>.</p>
+                                <p>Se utiliza cuando deseas proporcionar una implementacion base, comun para varias subclases, pero tambien deseas definir ciertos metodos que las subclases deben implementar de manera especifica.</p>
+                                <details>
+                                    <summary>Caracteristicas</summary>
+                                    <p>Obligan a la herencia.</p>
+                                    <p>Se representan con letras italicas.</p>
+                                    <p>No permite instancia o creacion de objetos.</p>
+                                    <p>Permite:</p>
+                                    <ul>
+                                        <li>Heredar de otras clases o Interfaces.</li>
+                                        <li>Declarar variables y constantes.</li>
+                                        <li>Implementacion de metodos y propiedades.</li>
+                                    </ul>
+                                    <p>Si tiene miembros abstractos, deben ser implementados en las clases derivadas.</p>
+                                </details>
+                            </details>
+                        </details>
+                    </details>
+                    <details id="objeto">
+                        <summary>¿Que es un objeto?</summary>
+                        <p>Es una instancia de una clase</p>
+                    </details>
+                    <details id="atributos">
+                        <summary>Atributos</summary>
+                        <p>Se refieren a las características o propiedades que describen el estado de ese objeto.</p>
+                    </details>
+                    <details id="herencia">
+                        <summary>Herencia</summary>
+                        <p>Es la propiedad de un objeto de tener todas las caracteristicas de la clase de la que proviene. Y no solo un objeto hereda de una clase, sino que una clase tambien puede heredar de otra.</p>
+                    </details>
+                    <details id="abstraccion">
+                        <summary>Abstraccion</summary>
+                        <p>Se refiere a quitar las propiedades y acciones de un objeto para dejar solo aquellas que sean importantes. Dado que diferentes tipos de problemas requieren distinta cantidad de informacion.</p>
+                    </details>
+                    <details id="polimorfismo">
+                        <summary>Polimorfismo</summary>
+                        <p>Es la capacidad que tienen los objetos de una clase, en ofrecer respuesta distinta e independiente, es decir la posibilidad que una entidad tome muchas formas, mediante "reescribir" el accionar de las funciones para cada clase hija.</p>
+                        <p>Permite referirse a objetos de clases diferentes mediante el mismo elemento de programa y realizar la misma operacion de diferente forma segun sea el objeto que se referencia en ese momento.</p>
+                    </details>
+                    <details id="encapsulamiento">
+                        <summary>Encapsulamiento</summary>
+                        <p>Cuando un objeto trae consigo su funcionalidad, esta ultima se oculta.</p>
+                        <details>
+                            <summary>Tipos de encapsulamiento</summary>
+                            <details>
+                                <summary>Publico</summary>
+                                <p>Todos pueden acceder a los datos o metodos de una clase que se definen con este nivel.</p>
+                            </details>
+                            <details>
+                                <summary>Protegido</summary>
+                                <p>No son de acceso publico, solamente accesibles dentro de su clase y subclases.</p>
+                            </details>
+                            <details>
+                                <summary>Privado</summary>
+                                <p>En este nivel se pueden declarar miembros accesibles solo para la propia clase.</p>
+                            </details>
+                        </details>
+                    </details>
+                    <details id="metodo">
+                        <summary>¿Que es un metodo?</summary>
+                        <p>Son bloques de codigo que realizan una tarea especifica dentro de una clase. Estos pueden tener parametros de entrada y pueden devolver un valor como resultado.</p>
+                        <details>
+                            <summary>Caracteristicas.</summary>
+                            <details>
+                                <summary>Nombre</summary>
+                                <p>Cada metodo tiene un nombre que lo identifica dentro de la clase.</p>
+                            </details>
+                            <details>
+                                <summary>Parametros</summary>
+                                <p>Los metodos pueden aceptar cero o mas parametros como entrada, que son variables utilizadas dentro del metodo para realizar operaciones.</p>
+                            </details>
+                            <details>
+                                <summary>Tipo de retorno</summary>
+                                <p>Algunos metodos pueden devolver un valor como resultado de su ejecucion.</p>
+                            </details>
+                            <details>
+                                <summary>Modificadores de acceso</summary>
+                                <p>Los metodos pueden tener modificadores de acceso que controlan su visibilidad desde otras clases(publicos, protegidos o privados).</p>
+                            </details>
+                            <details>
+                                <summary>Cuerpo del metodo</summary>
+                                <p>Contiene las instrucciones que se ejecutan cuando se llama al metodo.</p>
+                            </details>
+                        </details>
+                    </details>
+                    <details id="metodoConstructor">
+                        <summary>¿Que es un metodo constructor?</summary>
+                        <p>Son metodos especiales que se utilizan para inicializar objetos de una clase.</p>
+                        <details>
+                            <summary>Caracteristicas</summary>
+                            <details>
+                                <summary>Nombre</summary>
+                                <p>Tiene que ser el mismo nombre que la clase.</p>
+                            </details>
+                            <details>
+                                <summary>Parametros</summary>
+                                <p>Pueden aceptar parametros que utilizan para inicializar el estado inicial del objeto.</p>
+                            </details>
+                            <details>
+                                <summary>Inicializacion</summary>
+                                <p>Se utilizan para inicializar variables de instancia y realizar otras operaciones necesarias para preparar al objeto para su uso.</p>
+                            </details>
+                            <details>
+                                <summary>Llamada automatica</summary>
+                                <p>Se llaman automaticamente cuando se crea un nuevo objeto utilizando el operador "new".</p>
+                            </details>
+                        </details>
+                    </details>
+                    <details id="sobrecargaDeMetodos">
+                        <summary>¿Que es la sobrecarga de metodos?</summary>
+                        <p>Permite definir multiples metodos con el mismo nombre en una clase, pero con diferente lista de parametros.</p>
+                        <details>
+                            <summary>Caracteristicas</summary>
+                            <details>
+                                <summary>Mismo nombre</summary>
+                                <p>Tienen el mismo nombre que la clase</p>
+                            </details>
+                            <details>
+                                <summary>Diferentes parametros</summary>
+                                <p>Cada metodo sobrecargado tiene una lista de parametros diferente, ya sea en cantidad, tipo o ambos.</p>
+                            </details>
+                            <details>
+                                <summary>Diferentes firmas</summary>
+                                <p>La "firma" incluye su nombre y la lista de parametros.</p>
+                            </details>
+                            <details>
+                                <summary>Compilador resuelve la llamada</summary>
+                                <p>El compilador determina cual de los metodos con el mismo nombre se debe ejecutar segun el numero y tipo de argumentos pasados en la llamada.</p>
+                            </details>
+                        </details>
+                    </details>
+                    <details id="mensajes">
+                        <summary>Mensajes</summary>
+                        <p>Es una solicitud para que un objeto realice una accion o responda una consulta.</p>
+                    </details>
+                    <details id="asociaciones">
+                        <summary>Asociaciones</summary>
+                        <p>Representan las relaciones entre objetos. Se establecen mediante atributos que hacen referencia a otros objetos.</p>
+                        <details>
+                            <summary>De uno a uno</summary>
+                            <p>Un objeto esta asociado con exactamente un objeto.</p>
+                        </details>
+                        <details>
+                            <summary>De uno a muchos</summary>
+                            <p>Un objeto esta asociado con uno o mas objetos.</p>
+                        </details>
+                        <details>
+                            <summary>Muchos a muchos</summary>
+                            <p>Varios objetos estan asociados con varios objetos.</p>
+                        </details>
+                        <details>
+                            <summary>Otros tipos de asociaciones</summary>
+                            <h3>Agregacion</h3>
+                            <p>En la agregación, una clase tiene una referencia a otra clase pero las instancias de la clase secundaria pueden existir de manera independiente de la clase principal.</p>
+                            <details>
+                                <summary>Caracteristicas</summary>
+                                <details>
+                                    <summary>Independencia del ciclo de vida</summary>
+                                    <p>Los objetos agregados pueden existir de manera independiente del objeto contenedor.</p>
+                                </details>
+                                <details>
+                                    <summary>Multiplicidad</summary>
+                                    <p>Un objeto contenedor puede contener uno o mas objetos agregados.</p>
+                                </details>
+                                <details>
+                                    <summary>Reutilizacion</summary>
+                                    <p>Los objetos agregados pueden ser compartidos por varios objetos contenedores.</p>
+                                </details>
+                            </details>
+                            <h3>Composicion</h3>
+                            <p>Una clase está formada por una o más instancias de otra clase (componentes) y no pueden existir de manera independiente.</p>
+                        </details>
+                    </details>
+                    <details id="interfaces">
+                        <summary>Interfaces</summary>
+                        <p>Define un conjunto de metodos que deben ser implementados por las clases que lo utilicen. Esta solo puede obtener la firma de los metodos pero no su implementacion. En la interfaz no se pueden definir metodos concretos ni campos, solo declarar los metodos que deben ser implementados por cualquier clase que implemente la interfaz.</p>
+                        <p>Se utiliza cuando deseas definir un contrato o un conjunto de comportamientos que deben ser cumplidos por diferentes clases.</p>
+                    </details>
+                </section>
+            </div>
+
+        </div>
+    </header>
+</body>
+</html>
